@@ -44,6 +44,8 @@ class DetailViewController: UIViewController {
         print("testClicked")
         
         let vc = getViewControllerByID("testVC") as! TestViewController
+        print(vc)
+        print(navigationController)
         navigationController?.show(vc, sender: self)
     }
     
