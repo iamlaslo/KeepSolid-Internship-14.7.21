@@ -10,11 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    //MARK: - ? don't show VC
-    @IBAction func buttonClick(_ sender: Any) {
-        print("hiiii") // works
-        
-        
+    @IBAction func buttonClick(_ sender: Any) { 
         let vc = getViewControllerByID("detailVC")  as! DetailViewController
         
         
